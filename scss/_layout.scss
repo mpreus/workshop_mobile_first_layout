@@ -1,0 +1,38 @@
+
+section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+img {
+	max-width: 100%; 
+}
+
+.layout-wrap {
+	display: flex;
+
+	&.spaced-out {
+		justify-content: space-between;
+	}
+	
+	&.mobile-folds {
+		@include media-breakpoint-down(md) {
+			display: block;
+		}
+	}
+}
+
+ul.inline-list {
+	list-style: none;
+	li {
+		display: inline-block; /* ikonki obok siebie na każdym ekranie 
+- dużym i małym */
+	}
+}
+h2 	{
+	text-align: center;
+}
+
+.btn-secondary {
+	margin: 0 auto;
+}

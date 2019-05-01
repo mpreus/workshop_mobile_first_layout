@@ -1,0 +1,26 @@
+.site-footer {
+	background-color: #222;
+	padding-top: 30px;
+
+	.inline-list .icon {
+		width: 3vw;
+		margin-right: 3vw;
+		margin-left: 3vw;
+		color: #fff;
+
+		@include media-breakpoint-up(md) {
+			margin-right: 2vw;
+			margin-left: 2vw;
+			margin-top: -20px;
+		}
+	}	
+	
+	.copyrights {
+		font-size: 2vw;
+		color: #888;
+		@include media-breakpoint-up(md) {
+			margin-top: 40px;
+		}
+	}
+}
+

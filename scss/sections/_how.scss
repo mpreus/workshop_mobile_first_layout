@@ -1,0 +1,50 @@
+.how-section {
+
+	.text-md-left h2 {
+		font-size: 4.5vw;
+		font-weight: 800;
+		text-align: left;
+		margin-bottom: 20px;
+		color: darkred;
+		
+		@include media-breakpoint-up(md) {
+		font-size: 2vw;
+		font-weight: 800;
+		text-align: left;
+		margin-bottom: 20px;
+		}
+	}
+
+	.text-md-left p {
+		font-size: 4vw;
+		padding-bottom: 20px;
+		line-height: 1.6;
+		color: #555;
+		@include media-breakpoint-up(md) {
+		font-size: 1.8vw;
+		padding-bottom: 20px;
+		line-height: 1.6;
+		}
+	}
+
+	.col-md-6 {
+
+		@include media-breakpoint-up(md) {
+			background-size: cover;
+			img {
+				margin-top: 60px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

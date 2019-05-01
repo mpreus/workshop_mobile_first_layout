@@ -1,0 +1,40 @@
+.cover-section {
+	
+	background-image: url("../pictures/desk-with-laptop-xs.png");
+	@include media-breakpoint-up(md) {
+		background-image: url("../pictures/desk-with-laptop-sm.png");
+	}
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+
+	h1 {
+	font-size: 7vw;
+	font-weight: normal;
+	margin-top: 70px;
+	color: #555;
+	}
+	
+	.content p {
+		color: #555;
+		font-size: 3vw;
+		padding: 10px 20px;
+		line-height: 1.6;
+		@include media-breakpoint-up(md) {
+		font-size: 2vw;
+		padding: 40px 80px;
+	}
+	}
+
+	.btn-primary {
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: #6ab94c;
+	padding: 20px 40px;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	}
+
+}

@@ -1,0 +1,73 @@
+.lead-and-title {
+	h2 {
+		font-size: 7vw;
+		font-weight: normal;
+		margin: 50px 0 30px;
+		color: #fff;
+		line-height: 60px;
+
+		@include media-breakpoint-up(md) {
+		font-size: 5vw;
+		font-weight: normal;
+		}
+	}
+	
+	padding: 36px 20px;
+	background-color: #6ab94c;
+}
+
+.col-md-4 p {
+	color: #555;
+	font-size: 3vw;
+	padding: 10px 20px;
+	line-height: 1.6;
+	
+	@include media-breakpoint-up(md) {
+		font-size: 2vw;
+		font-weight: normal;
+		margin-bottom: 40px;
+		}
+	}
+
+.col-md-4 h3 {
+	color: darkred;
+	font-size: 4vw;
+	font-weight: 700;
+
+	@include media-breakpoint-up(md) {
+		font-size: 3vw;
+		font-weight: normal;
+		}
+}
+
+.btn-secondary {
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #aaa;
+}
+
+.button-second-class {
+	box-shadow: 4px 4px 4px darkred;
+	&:hover {
+		background-color: darkred;
+		color: #fff;
+		box-shadow: 4px 4px 4px #000;
+	}
+}
+
+.button-first-class {
+	box-shadow: 4px 4px 4px #aaa;
+	&:hover {
+		background-color: #aaa;
+		color: green;
+		box-shadow: 4px 4px 4px green;
+	}
+}
